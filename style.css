@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(#16222a, #3a6073);
+}
+
+#container {
+  background-image: linear-gradient(45deg, #bdc3c7, #2c3e50, #bdc3c7, #2c3e50);
+  width: 400px;
+  margin: 30px auto 0;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 15px 15px 15px -8px #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 1px #ddd;
+}
+
+form {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin: 25px 0;
+  font-weight: bold;
+}
+
+form input,
+for select {
+  padding: 8px;
+  margin: 10px 0;
+}
+
+form input[type="text"] {
+  width: 90px;
+}
+
+button {
+  background-color: #20232b;
+  color: white;
+  border: none;
+  border-bottom: solid 4px rgb(53, 46, 46);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-image: linear-gradient(#0f2027, #203a43, #2c5364);
+  border-bottom-color: #0f2027;
+  cursor: pointer;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+#totalTip:before {
+  content: "Tip Amount";
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 24px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
