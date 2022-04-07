@@ -1,4 +1,4 @@
 # Tip-Calculator
 Tip Calculator
 
-Created by pure Javascript.
+Created by pure Javascript
